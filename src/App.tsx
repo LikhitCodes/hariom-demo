@@ -12,7 +12,7 @@ function App() {
   const [inputMessage, setInputMessage] = useState('');
   const [isTyping, setIsTyping] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
-  const API_KEY = '';
+  const API_KEY = 'AIzaSyAmRLhtSpB5pYBSSVa4EgXAm-WSlUC8OEM';
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
